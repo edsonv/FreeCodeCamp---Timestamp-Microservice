@@ -75,6 +75,7 @@ app.get('/', function (req, res) {
 //   return res.json({ error: 'Invalid Date' });
 // });
 
+// Improved code
 app.get('/api/:date?', (req, res) => {
   const { date } = req.params;
 
